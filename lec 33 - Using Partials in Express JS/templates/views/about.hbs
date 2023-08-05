@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 100vh;
+            background-color: yellowgreen;
+            color: red;
+            font-size: 70px;
+        }
+        .main{
+            background-color: black;
+            color: white;
+            font-size: 50px;
+            padding: 20px;
+
+            display: flex;
+            justify-content: space-between;
+        }
+        a{
+            color: wheat;
+            text-decoration: none;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./about.css">
+    
+</head>
+<body>
+
+    {{!-- partials --}}
+    {{>header}}
+
+    <h1>
+        About Page
+    </h1>
+    
+</body>
+</html>

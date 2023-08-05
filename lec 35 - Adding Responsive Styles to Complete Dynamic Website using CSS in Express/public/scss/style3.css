@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    background-color: red;
+    color: white;
+    font-size: 70px;
+}
+.main{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: wheat;
+    text-decoration: none;
+}

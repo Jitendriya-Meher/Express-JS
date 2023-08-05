@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    background-color: pink;
+}
+.main{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: wheat;
+    text-decoration: none;
+}
